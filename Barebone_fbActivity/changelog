@@ -1,0 +1,31 @@
+Version 0.8beta2
+* Uploaded to Play store.
+* Added 'View photos' functionality
+* Changed launcher and action bar graphics
+* App can be moved to sd card
+
+Version 0.8
+* Pictures are downloaded directly and shows a ProgressBar
+
+
+Version 0.7.2
+* Logout option included.
+* Users can disable single sign on if they wish and force app to display login dialog.
+
+Version 0.6.5
+* Settings activity is rebuilt using PreferenceActivity.
+* Preferences are easily read and written.
+
+Version 0.6
+* Ad support.
+* Support for multiple screen densities improved.
+* Search functionality added.
+
+Version 0.5
+* Option to download high resolution photos.
+* About dialog added and redesigned for medium sized screens.
+* Friends list and album list are arranged alphabetically.
+
+Version 0.4
+* Downloads photos to a folder in sdcard instead of cache.
+* Fixed minor bugs in file and folder naming.

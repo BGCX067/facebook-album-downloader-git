@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.googlepages.vysakhp.barebone_fb"
+    android:versionCode="11"
+    android:versionName="0.9beta1" 
+    android:installLocation="auto">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<!--<uses-permission android:name="android.permission.READ_PHONE_STATE">
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="false">
+        <activity
+            android:name=".Barebone_fbActivity"
+            android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity android:name=".album_selector" android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+		<activity android:name=".download_photos" android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+		<activity android:name=".preferences" android:label="@string/app_name" android:configChanges="orientation" />
+		<activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+		
+		<activity android:name="com.adsdk.sdk.banner.InAppWebView" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+		<activity android:name="com.adsdk.sdk.mraid.MraidActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+    </application>
+    
+</manifest>

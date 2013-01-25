@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Facebook Album Downloader</string>
+    <string name="loading">Loading. Please wait&#8230;</string>
+    <string name="internet_connection_dialog_message">Please check your internet connection and try again.</string>
+    <string name="internet_connection_dialog_title">Network Error</string>
+    <string name="invalid_login_dialog_message">Please log in into your Facebook account.</string>
+    <string name="invalid_login_dialog_title">Invalid credentials</string>
+    <string name="download_textview_message_1">The album will be downloaded to </string>
+
+    <string name="folder_name_high_res">high resolution</string>
+
+</resources>
